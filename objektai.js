@@ -65,3 +65,50 @@
 // } else {
 //   console.log('kainos vienodos');
 // }
+let studentas1 = {
+  vardas: 'tomas',
+  pavarde: 'maniuska',
+  studijos: 'vgtu',
+  pazymiai: [3, 4, 5, 6, 2, 9],
+};
+let studentas2 = {
+  vardas: 'Mantas',
+  pavarde: 'Meskauskas',
+  studijos: 'vdtko',
+  pazymiai: [8, 5, 6, 7, 2, 4],
+};
+let paz_suma = 0;
+
+// for (const paz of studentas1.pazymiai) {
+//   paz_suma += paz;
+// }
+// console.log('Mokinys 1:', studentas1);
+// console.log('pazymiai:', studentas1.pazymiai);
+// console.log('vidurkis:', paz_suma / studentas1.pazymiai.length);
+// for (const paz of studentas2.pazymiai) {
+//   paz_suma += paz;
+// }
+// console.log('Mokinys 2:', studentas2);
+// console.log('Pazymiai:', studentas2.pazymiai);
+// console.log('Vidurkis:', paz_suma / studentas2.pazymiai.length);
+// if (
+//   paz_suma / studentas1.pazymiai.length >
+//   paz_suma / studentas2.pazymiai.length
+// ) {
+//   console.log(
+//     'pirmo studento vydukis yra didesnis:',
+//     studentas1.vardas,
+//     studentas1.pavarde
+//   );
+// } else if (
+//   paz_suma / studentas1.pazymiai.length <
+//   paz_suma / studentas2.pazymiai.length
+// ) {
+//   console.log(
+//     'antro studento vidurkis didesnis:',
+//     studentas2.vardas,
+//     studentas2.pavarde
+//   );
+// } else {
+//   console.log('vidurkis vienodas');
+// }
