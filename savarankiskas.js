@@ -60,19 +60,20 @@
 
 // // console.log('Kuras:', auto.Kuras);
 
-let studentai = [
-  { Vardas: 'Jonas', Amzius: 20, Pazymiai: [4, 5, 6, 2] },
-  { Vardas: 'Linas', Amzius: 19, Pazymiai: [6, 7, 8, 4] },
-  { Vardas: 'Kestas', Amzius: 21, Pazymiai: [9, 3, 8, 4] },
-];
-let vidurkiu_suma = 0;
-for (const stu of studentai) {
-  console.log(`studentas: ${stu.Vardas} Amzius: ${stu.Amzius}`);
-  let suma = 0;
-  for (const paz of stu.Pazymiai) {
-    suma += paz;
-  }
-  let Vidurkis = suma / stu.paz.length;
-  //   vidurkiu_suma += Vidurkis;
-  console.log(vidurkiu_suma);
-}
+// let studentai = [
+//   { Vardas: 'Jonas', Amzius: 20, Pazymiai: [4, 5, 6, 2] },
+//   { Vardas: 'Linas', Amzius: 19, Pazymiai: [6, 7, 8, 4] },
+//   { Vardas: 'Kestas', Amzius: 21, Pazymiai: [9, 3, 8, 4] },
+// ];
+
+// let vidurkiu_suma = 0;
+// for (const stu of studentai) {
+//   console.log(`studentas: ${stu.Vardas} Amzius: ${stu.Amzius}`);
+//   let suma = 0;
+//   for (const paz of stu.Pazymiai) {
+//     suma += paz;
+//   }
+//   let Vidurkis = suma / stu.paz.length;
+//   //   vidurkiu_suma += Vidurkis;
+//   console.log(vidurkiu_suma);
+// }
