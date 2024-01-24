@@ -48,7 +48,7 @@
 // let sasSumaSuLiekana = [100.23, 98.6, 36.7, 43.2, 550.12];
 
 // function kiekMasyvu(masyvas, callback) {
-//   for (let i = 0; i < masyvas.lenght; i++) {
+//   for (let i = 0; i < masyvas.length; i++) {
 //     callback(masyvas[i], i, masyvas);
 //   }
 // }
@@ -67,6 +67,8 @@
 //   let suapvalinta = Math.round(item);
 //   console.log(`saskaitos suma: ${item}; suapvalinta suma: ${suapvalinta}`);
 // });
+//--------GAVOSI LABAI PUIKIAI------------------
+//---------kita tema-----------
 // function skaiciu_suma(masyvas) {
 //   let suma = 0;
 //   for (const sk of masyvas) {
@@ -82,18 +84,74 @@
 // console.log('Skaiciu suma:', suma);
 // console.log('Vidurkis:', vidurkis);
 // console.log('sandauga:', sandauga);
-const numbers = [10, 5, 8, 20, 15, 20];
+// const numbers = [10, 5, 8, 20, 15, 20];
 
-let maxNumber = numbers[0];
-let allMaxNumbers = [maxNumber];
+// let maxNumber = numbers[0];
+// let allMaxNumbers = [maxNumber];
 
-for (let i = 1; i < numbers.length; i++) {
-  if (numbers[i] > maxNumber) {
-    maxNumber = numbers[i];
-    allMaxNumbers = [maxNumber]; // Reset the array with a new maximum
-  } else if (numbers[i] === maxNumber) {
-    allMaxNumbers.push(maxNumber); // Add additional occurrences of the current maximum
-  }
-}
+// for (let i = 1; i < numbers.length; i++) {
+//   if (numbers[i] > maxNumber) {
+//     maxNumber = numbers[i];
+//     allMaxNumbers = [maxNumber]; // Reset the array with a new maximum
+//   } else if (numbers[i] === maxNumber) {
+//     allMaxNumbers.push(maxNumber); // Add additional occurrences of the current maximum
+//   }
+// }
 
-console.log(allMaxNumbers); // Output: [20, 20]
+// console.log(allMaxNumbers); // Output: [20, 20]
+
+//------------iskviesti true arba fols------------
+
+// let arr = [6, 8, 6, 9, 7];
+// let arr2 = [4, 8, 3, 9, 2];
+// function teigiami(pazymiai) {
+//   console.log(pazymiai);
+//   for (let i = 0; i < pazymiai.length; i++) {
+//     if (pazymiai[i] < 5) {
+//       console.log('pazymis yra neigiamas:', pazymiai[i]);
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// let atsakymas = teigiami(arr);
+// console.log(teigiami(arr2));
+// console.log(atsakymas);
+//---------kita versija----------
+// let arr = [6, 8, 6, 9, 7];
+// let arr2 = [4, 8, 3, 9, 2];
+// function teigiami(pazymiai) {
+//   console.log(pazymiai);
+//   let teigiamas = true;
+//   for (let i = 0; i < pazymiai.length; i++) {
+//     if (pazymiai[i] < 5) {
+//       console.log('pazymis yra neigiamas:', pazymiai[i]);
+//       teigiamas = false;
+//       break;
+//     }
+//   }
+//   return teigiamas;
+// }
+// let atsakymas = teigiami(arr);
+// console.log(teigiami(arr2));
+// console.log(atsakymas);
+//-----------callback ---------------
+// function skaiciu_suma(masyvas, callback) {
+//   let suma = 0;
+//   for (let i = 0; i < masyvas.length; i++) {
+//     suma += masyvas[i];
+//   }
+//   callback(suma);
+// }
+// let skaiciai = [98, 87, 76, 69, 25, 31, 58, 48];
+// let skaiciai1 = [67, 23, 57, 80, 91, 97, 85, 45];
+// skaiciu_suma(skaiciai, (item) => {
+//   console.log('pirmo masyvo suma:', item);
+// });
+// skaiciu_suma(skaiciai1, (item) => {
+//   console.log('antro masyvo suma:', item);
+// });
+// function tekstas() {
+//   return 'gerai bus ismoksiu programuoti';
+// }
+// console.log(tekstas());
