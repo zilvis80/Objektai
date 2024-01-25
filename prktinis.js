@@ -155,3 +155,116 @@
 //   return 'gerai bus ismoksiu programuoti';
 // }
 // console.log(tekstas());
+
+// let vardai = [
+//   'Zilvinas',
+//   'diana',
+//   'martynas',
+//   'Adomas',
+//   'eugenijus',
+//   'Zofija',
+//   'Halina',
+//   'Renata',
+//   'Edgaras',
+//   'Serioga',
+//   'Laura',
+//   'Gabriele',
+//   'Jonas',
+// ];
+// function vyroVardasPirmas(vardas1, vardas2) {
+//   if (vardas1.endsWith('s') && !vardas2.endsWith('s')) return 1;
+//   else if (!vardas1.endsWith('s') && vardas2.endsWith('s')) return -1;
+//   else return 0;
+// }
+// vardai.sort((v1, v2) => vyroVardasPirmas(v1, v2));
+// console.log(vardai);
+
+// let skaicia = [98, 34, 13, 90, 36, 46, 24, 96.7, 33, 91];
+
+// console.log(skaicia.length);
+// console.log(skaicia[5]);
+// console.log(skaicia[2]);
+// console.log(skaicia[7]);
+// console.log(skaicia[skaicia.length - 1]);
+
+// let skaiciai = [85, 67, 93, 68, 52];
+// console.log('Masyvas', skaiciai);
+// console.log('trecias skaicius is masyvo:', skaiciai[2]);
+// console.log('kiek skaiciu yra masyve:', skaiciai.length);
+// console.log('paskutinis skaicius is masyvo:', skaiciai[skaiciai.length - 1]);
+// let skaiciai = [];
+// console.log(skaiciai);
+
+// skaiciai.push(35, 62, 58);
+// skaiciai.push(36, 21, 89);
+
+// console.log(skaiciai);
+
+// skaiciai.push(19, 23, 37, 19, 32, 78);
+// console.log(skaiciai);
+
+// let skaiciai = [54, 89, 23];
+// console.log('skaiciai:', skaiciai);
+// console.log('kiekis skaiciu:', skaiciai.length);
+
+// skaiciai2 = [2];
+// console.log('skaiciai:', skaiciai);
+// console.log('kiekis skaiciu:', skaiciai.length);
+
+// skaiciai[skaiciai.length] = 87;
+// console.log('skaiciai:', skaiciai);
+// console.log('kiekis skaiciu:', skaiciai.length);
+
+// let pazymiai = [8, 9, 4, 6, 2, 4, 3, 9];
+
+// console.log('studento pazymiai:', pazymiai);
+// let suma =
+//   pazymiai[0] +
+//   pazymiai[1] +
+//   pazymiai[2] +
+//   pazymiai[3] +
+//   pazymiai[4] +
+//   pazymiai[5] +
+//   pazymiai[6] +
+//   pazymiai[7];
+// let vidurkis = suma / pazymiai.length;
+// console.log('Pazymiu suma:', suma);
+// console.log('Vydurkis:', vidurkis);
+
+// let vardai = ['petras', 'paulius', 'juozas', 'Gabrielius'];
+// console.log(vardai);
+
+// vardai[2] = 'Katerina';
+// vardai[0] = 'Gabriele';
+// console.log(vardai);
+
+// let failai = [
+//   'grazios paskos/pabaiga pirmas.txt',
+//   'grazios paskos/pabaiga antras.txt',
+//   'grazios paskos/pabaiga trecias.txt',
+//   'grazios paskos/pabaiga ketvirtas.txt',
+//   'grazios paskos/pabaiga penktas.txt',
+// ];
+// console.log('Bibliotekos nuracija:', failai);
+// console.log('Pasaku kiekis:', failai.length);
+
+// let papildomas = 'grazios pasakos/pabaiga sestas.txt';
+// failai.push(papildomas);
+// console.log(failai);
+// console.log('pasaku kiekis:', failai.length);
+
+// let automobilai = ['audi', 'ford', 'fiat', 'subaru', 'BMW'];
+// for (let i = 0; i < automobilai.length; i++) {
+//   console.log(automobilai[i]);
+// }
+
+// let miestai = ['Vilnius', 'Kaunas', 'Siauliai', 'Panevezys', 'Druskininkai'];
+
+// for (let i = 0; i < miestai.length; i++) {
+//   console.log('Miesto pavadinimas:', miestai[i]);
+//   let papildomas = 'Klaipeda';
+//   miestai.push(papildomas);
+//   console.log(miestai);
+//   console.log('Miesto pavadinimai:', miestai[i]);
+//   console.log('kiekis:', miestai.length);
+// }
